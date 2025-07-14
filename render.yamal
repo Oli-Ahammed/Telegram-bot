@@ -1,0 +1,8 @@
+services:
+  - type: worker
+    name: telegram-bot
+    runtime: python
+    repo: https://github.com/Oli-Ahammed/Telegram-bot.git
+    branch: main
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python Telegram_project"
