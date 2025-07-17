@@ -394,7 +394,7 @@ async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     except Exception as e:
         await update.message.reply_text(f"❌ Error in image processing: {e}")
 
-
+#yo yo
 # === Main Entrypoint ===
 def main():
     print("🔄 Initial load of ChromaDB...")
