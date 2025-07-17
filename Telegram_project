@@ -19,10 +19,10 @@ import re
 
 # === Configuration ===
 BOT_TOKEN = "7969728700:AAEo5sqYN8RubzUfzkUUYo44SuK0LIgBRhE"
-CHROMA_PATH = "D:/project/chromaDB_data"
-DOC_FILE = "D:/Project/Tech store table.docx"
+CHROMA_PATH = "/workspaces/Telegram-bot/chromaDB_data"
+DOC_FILE = "/workspaces/Telegram-bot/Tech store table.docx"
 IMAGE_DIR = os.path.join(os.path.dirname(DOC_FILE), "Products Images")
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # === ChromaDB & Model Setup ===
