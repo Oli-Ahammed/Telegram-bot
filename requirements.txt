@@ -2,7 +2,7 @@ python-telegram-bot==20.7
 python-docx
 sentence-transformers
 Pillow
-chromadb>=0.5.2
+chromadb
 watchdog
 requests
 torch
