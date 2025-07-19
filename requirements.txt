@@ -2,7 +2,7 @@ python-telegram-bot==20.7
 python-docx
 sentence-transformers
 Pillow
-chromadb
+chromadb>=0.5.2
 watchdog
 requests
 torch
@@ -10,3 +10,4 @@ transformers
 ffmpeg-python
 SpeechRecognition
 openai
+numpy<2.0
