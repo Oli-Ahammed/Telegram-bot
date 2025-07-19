@@ -26,7 +26,7 @@ GROQ_API_KEY = "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"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # === ChromaDB & Model Setup ===
-client = chromadb.PersistentClient(path=CHROMA_PATH)
+client = chromadb.Client()
 collection = client.get_or_create_collection("tech_products")
 image_collection = client.get_or_create_collection("image_products")
 model = SentenceTransformer("all-MiniLM-L6-v2")
